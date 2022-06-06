@@ -9,21 +9,28 @@
 </head>
 <body>
   <div class="container">
-    <h1>Calculator</h1>
-    <form id="add">
+    <h1>Favorite Things</h1>
+    <form id="faveThings">
       <div class="form-group">
-        <label for="firstFave">1st Favorite Thing</label>
-        <input id="favorites" class="form-control" type="text">
+        <label for="firstFave">1st Favorite Thing:</label>
+        <input id="firstFave" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="secondFave">2nd Favorite Thing</label>
-        <input id="favorites" class="form-control" type="text">
+        <label for="secondFave">2nd Favorite Thing:</label>
+        <input id="secondFave" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="thirdFave">3rd Favorite Thing</label>
-        <input id="favorites" class="form-control" type="text">
+        <label for="thirdFave">3rd Favorite Thing:</label>
+        <input id="thirdFave" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn">Add!</button>
+      <button type="submit" class="btn">Display!</button>
+      <div>
+        <ul>
+          <li id="listOne"></li>
+          <li id="listTwo"></li>
+          <li id="listThree"></li>
+        </ul>
+      </div>
     </form>
   </div>
 </body>
